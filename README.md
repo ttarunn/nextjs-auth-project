@@ -17,7 +17,7 @@ MongoDB (or any preferred database) set up and running
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/yourusername/your-repo.git
+1. Clone the repository: git clone https://github.com/ttarunn/nextjs-auth-project
                          cd your-repo
 2. Install dependencies: npm install
 
