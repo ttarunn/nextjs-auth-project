@@ -33,6 +33,8 @@ User registration
 User login
 User authentication
 Profile management
+Forgot Password
+Reset Password
 
 ## Technologies Used
 Next.js
