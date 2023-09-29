@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from 'next/navigation'
 import toast from "react-hot-toast";
 
-const verifyEmail = () => {
+const ResetPassword = () => {
   const [verify, setVerify] = useState(false);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -102,4 +102,4 @@ const verifyEmail = () => {
   );
 };
 
-export default verifyEmail;
+export default ResetPassword;
