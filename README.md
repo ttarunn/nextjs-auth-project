@@ -12,8 +12,8 @@ Follow these instructions to set up and run the project locally.
 
 Before you begin, ensure you have met the following requirements:
 
-Node.js and npm installed
-MongoDB (or any preferred database) set up and running
+- Node.js and npm installed
+- MongoDB (or any preferred database) set up and running
 
 ## Installation
 
@@ -29,15 +29,16 @@ MongoDB (or any preferred database) set up and running
 
 ## Features
 
-User registration
-User login
-User authentication
-Profile management
-Forgot Password
-Reset Password
+- User registration
+- User login
+- User authentication
+- Profile management
+- Forgot Password
+- Reset Password
 
 ## Technologies Used
-Next.js
-Node.js
-MongoDB (or your preferred database)
-Tailwind
+
+- Next.js
+- Node.js
+- MongoDB (or your preferred database)
+- Tailwind
