@@ -52,7 +52,7 @@ const SignupPage = () => {
             <input 
                 type="text"
                 placeholder='username'
-                className='hover:border border-white rounded-lg'
+                className='hover:border border-white rounded-lg px-2'
                 id='username'
                 value={user.username}
                 onChange={(e) => setUser({ ...user, username: e.target.value })} />
@@ -60,7 +60,7 @@ const SignupPage = () => {
             <label htmlFor='email' className='text-white'>Email</label>
             <input
                 type="email"
-                className='hover:border border-white rounded-lg'
+                className='hover:border border-white rounded-lg px-2'
                 placeholder='Email'
                 id='email'
                 value={user.email}
@@ -68,7 +68,7 @@ const SignupPage = () => {
             <label htmlFor='password' className='text-white'>Password</label>
             <input
                 type="password"
-                className='hover:border border-white rounded-lg'
+                className='hover:border border-white rounded-lg px-2'
                 placeholder='Password'
                 id='password'
                 value={user.password}

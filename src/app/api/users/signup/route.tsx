@@ -2,6 +2,7 @@ import { connect } from '@/dbConfig/dbConfig';
 import User from '@/models/userModel';
 import { NextRequest, NextResponse } from 'next/server';
 import bcryptjs from 'bcryptjs'
+import { sendEmail } from '@/helpers/mailer';
 
 
 connect();
@@ -28,12 +29,17 @@ export async function POST(request: NextRequest){
 
     const savedUser = await userToBeSave.save()
 
-    console.log(savedUser);
+    //verifying email address
+
+    await sendEmail({email, emailType: "VERIFY", userID: savedUser._id});
+
     return NextResponse.json({
       message:"User Created Successfully",
       success: true,
       savedUser
     })
+
+
 }catch(error:any){
   return NextResponse.json({message:"error in signupp route", error:error.message},{status:500})
 }
