@@ -27,10 +27,6 @@ MongoDB (or any preferred database) set up and running
 4. Start the development server: npm run dev
 
 
-## Usage
-
-Explain how to use the application once it's up and running. Provide any necessary login credentials or steps for registration.
-
 ## Features
 
 List the key features of your application. For example:
