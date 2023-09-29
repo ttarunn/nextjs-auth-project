@@ -29,8 +29,6 @@ MongoDB (or any preferred database) set up and running
 
 ## Features
 
-List the key features of your application. For example:
-
 User registration
 User login
 User authentication
