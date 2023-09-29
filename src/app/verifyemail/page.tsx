@@ -3,7 +3,7 @@ import axios from "axios";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const verifyEmail = () => {
+const VerifyEmail = () => {
   const [verify, setVerify] = useState(false);
   const [error, setError] = useState(false);
   const [token, setToken] = useState("");
@@ -53,4 +53,4 @@ const verifyEmail = () => {
   );
 };
 
-export default verifyEmail;
+export default VerifyEmail;
